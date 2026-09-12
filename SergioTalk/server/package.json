@@ -1,0 +1,15 @@
+{
+  "name": "sergiotalk-relay",
+  "version": "1.0.0",
+  "description": "Minimal relay server for Sergio Talk's internet mode - relays chat messages and call audio between two phones that aren't in local Bluetooth/Wi-Fi Direct range of each other.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
